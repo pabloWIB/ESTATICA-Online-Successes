@@ -357,6 +357,122 @@ body {
   }
 }
 
+@media (max-width: 875px) {
+  body {
+    background: linear-gradient(180deg, #fff 20%, #9cbff0 100%);
+    > :nth-child(3) {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 1.75rem;
+      > :nth-child(1) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        img {
+          opacity: 20%;
+        }
+      }
+      > :nth-child(2) {
+        position: relative;
+        > :nth-child(1) {
+          > :nth-child(1) {
+            margin: 0 auto;
+            padding-top: 2.45rem;
+            width: 90%;
+            max-width: 1440px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 2.45rem;
+            > :nth-child(1) {
+              text-align: center;
+              h1{
+                font-size: 20px;
+              }
+              h2{
+                font-size: 17px;
+              }
+            }
+            > :nth-child(2) {
+              video {
+                width: 100%;
+              }
+            }
+          }
+        }
+        > :nth-child(2) {
+          width: 100%;
+          background-color: rgb(255, 255, 255);
+          > :nth-child(1) {
+            width: 90%;
+            max-width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+            > :nth-child(1) {
+              margin-top: 1.75rem;
+              padding-top: 2.45rem;
+              h2{
+                font-size: 17px;
+              }
+            }
+            .calendly-inline-widget{
+              padding-bottom: 5rem;
+            }
+          }
+        }
+        > :nth-child(3) {
+          width: 90%;
+          max-width: 1440px;
+          margin: 0 auto;
+          text-align: center;
+          display: flex;
+          flex-flow: column wrap;
+          gap: 1rem;
+          > :nth-child(1) {
+            padding-top: 1.5rem;
+            h2{
+              font-size: 17px;
+            }
+          }
+          > :nth-child(2) {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            > :nth-child(1),
+            > :nth-child(2) {
+              flex: 1;
+            }
+            > :nth-child(2) {
+              text-align: justify;
+              display: flex;
+              flex-flow: column wrap;
+              gap: 1rem;
+              > :nth-child(3) {
+                a {
+                  all: unset;
+                  cursor: pointer;
+                  font-weight: 600;
+                  color: rgb(0, 0, 0);
+                  padding: 7.5px 15px;
+                  background: #ffffff;
+                  border-radius: 30px;
+                  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+                  transition: 0.3s;
+                  &:hover {
+                    transform: scale(1.07);
+                    transition: 0.3s;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // OVERFLOW MEDIAS (875px) TABLET
 
 // Activar overflow con click en burger
