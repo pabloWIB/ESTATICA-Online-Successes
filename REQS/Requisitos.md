@@ -26,4 +26,4 @@ Soy un socio de crecimiento que se enfoca en implementar una fórmula que garant
 Este es el código de calendly para la pagina.
 
 <div class="calendly-inline-widget" data-url="https://calendly.com/online-successes-mx/30min" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async>[/script]
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async</script>
