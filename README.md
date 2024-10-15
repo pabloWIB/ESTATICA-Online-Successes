@@ -16,25 +16,24 @@
 <!-- <h4>Apps:</h4>
 <img src="https://skillicons.dev/icons?i=figma" /> -->
 
-<h1>Modern LogIn</h1>
+<h1>Online Suceccesses</h1>
 
-<p>Bienvenido a Modern LogIn frontend project, diseñado por Pablo Nieto (GitHub: <a href="https://github.com/pabloWIB">pabloWIB</a>)</p>
+<p>Bienvenido a Online Suceccesses frontend project, diseñado por Pablo Nieto (GitHub: <a href="https://github.com/pabloWIB">pabloWIB</a>)</p>
 
 <a href="https://www.linkedin.com/in/pablo-nieto-perez-39a530292/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Pablo Nieto"/></a>
 
 <a href="https://www.fiverr.com/pablonietop?source=gig_page" target="blank"><img align="center" src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="@FiverrPablo"  /></a>
 
-
 <h2>Resumen</h2>
 
 <p>De que va la página</p>
 
-<h2>Características</h2>
-
-<ul>
+<h2>Características</h2> 
+<ul> 
     <li><strong>Diseño Responsivo:</strong> La aplicación está diseñada para funcionar perfectamente en diferentes dispositivos y tamaños de pantalla, proporcionando una experiencia de usuario consistente.</li>
-    <li><strong></strong></li>
-    <li><strong></strong></li>
+    <li><strong>Integración de Calendly:</strong> Los usuarios pueden reservar fácilmente una llamada de consulta utilizando el widget de Calendly, lo que mejora la conversión de visitantes a clientes potenciales.</li>
+    <li><strong>Optimización para SEO:</strong> La página está optimizada con las mejores prácticas de SEO, incluyendo etiquetas meta relevantes, una estructura de contenido clara y tiempos de carga rápidos, lo que ayuda a mejorar su visibilidad en motores de búsqueda.</li>
+    <li><strong>Integración de Video:</strong> Un video de introducción se incorpora al inicio de la página para captar la atención de los usuarios y comunicar de manera clara los beneficios del servicio.</li> 
 </ul>
 
 <h2>Tecnologías Utilizadas</h2>
@@ -47,7 +46,7 @@
 
 <h2>Empezando</h2>
 
-<p>Para comenzar con el proyecto frontend de Easybank, sigue estos pasos:</p>
+<p>Para comenzar con el proyecto frontend de Suceccesses, sigue estos pasos:</p>
 
 <ol>
     <li>Clona este repositorio en tu máquina local usando <code>git clone</code>.</li>
@@ -63,5 +62,3 @@
 
 <h2>Licencia</h2>
 <p>Este proyecto está bajo la <a href="LICENSE">Licencia MIT</a>.</p>
-
-
