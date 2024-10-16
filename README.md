@@ -1,4 +1,5 @@
 <!-- <h2 align="center">Diseño Figma: <a href="">Maquetado en Figma</a></h2> -->
+<img src="IMG/Hero.png"/>
 
 <h2 align="center">Página: <a href=""></a><span>Aún no disponible</span></h2>
 
