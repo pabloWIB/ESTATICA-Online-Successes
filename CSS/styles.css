@@ -227,25 +227,25 @@ nav > :nth-child(1) > :nth-child(2) > :nth-child(2) svg {
 }
 
 body {
-  background: linear-gradient(180deg, #fff 20%, #9cbff0 100%);
+  background: linear-gradient(180deg, #fff 20%, #acc9f1 100%);
 }
-body > :nth-child(3) {
+body .content {
   position: relative;
   overflow: hidden;
   padding-bottom: 2.5rem;
 }
-body > :nth-child(3) > :nth-child(1) {
+body .content > :nth-child(1) {
   position: absolute;
   top: 0;
   right: 0;
 }
-body > :nth-child(3) > :nth-child(1) img {
+body .content > :nth-child(1) img {
   opacity: 20%;
 }
-body > :nth-child(3) > :nth-child(2) {
+body .content > :nth-child(2) {
   position: relative;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) {
   margin: 0 auto;
   padding-top: 3.5rem;
   width: 90%;
@@ -256,27 +256,26 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
   justify-content: center;
   gap: 3.5rem;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) {
+body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) {
   text-align: center;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) video {
+body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) video {
   width: 100%;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+body .content > :nth-child(2) > :nth-child(2) {
   width: 100%;
-  background-color: rgb(255, 255, 255);
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(1) {
+body .content > :nth-child(2) > :nth-child(2) > :nth-child(1) {
   width: 90%;
   max-width: 1440px;
   margin: 0 auto;
   text-align: center;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+body .content > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
   margin-top: 2.5rem;
   padding-top: 3.15rem;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) {
+body .content > :nth-child(2) > :nth-child(3) {
   width: 90%;
   max-width: 1440px;
   margin: 0 auto;
@@ -285,25 +284,34 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(3) {
   flex-flow: column wrap;
   gap: 1rem;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(1) {
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(1) {
   padding-top: 1.5rem;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) {
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  gap: 1.5rem;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1),
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1),
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
   flex: 1;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1) {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 600px;
+}
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1) img {
+  width: 100%;
+}
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
   text-align: justify;
   display: flex;
   flex-flow: column wrap;
   gap: 1rem;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a {
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a {
   all: unset;
   cursor: pointer;
   font-weight: 600;
@@ -314,7 +322,7 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-chil
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
 }
-body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a:hover {
+body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a:hover {
   transform: scale(1.07);
   transition: 0.3s;
 }
@@ -323,23 +331,23 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-chil
   body {
     background: linear-gradient(180deg, #fff 20%, #9cbff0 100%);
   }
-  body > :nth-child(3) {
+  body .content {
     position: relative;
     overflow: hidden;
     padding-bottom: 1.75rem;
   }
-  body > :nth-child(3) > :nth-child(1) {
+  body .content > :nth-child(1) {
     position: absolute;
     top: 0;
     right: 0;
   }
-  body > :nth-child(3) > :nth-child(1) img {
+  body .content > :nth-child(1) img {
     opacity: 20%;
   }
-  body > :nth-child(3) > :nth-child(2) {
+  body .content > :nth-child(2) {
     position: relative;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+  body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) {
     margin: 0 auto;
     padding-top: 2.45rem;
     width: 90%;
@@ -350,39 +358,39 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-chil
     justify-content: center;
     gap: 2.45rem;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) {
+  body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) {
     text-align: center;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) h1 {
+  body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) h1 {
     font-size: 20px;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) h2 {
+  body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) h2 {
     font-size: 17px;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) video {
+  body .content > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) video {
     width: 100%;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+  body .content > :nth-child(2) > :nth-child(2) {
     width: 100%;
     background-color: rgb(255, 255, 255);
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(1) {
+  body .content > :nth-child(2) > :nth-child(2) > :nth-child(1) {
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+  body .content > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
     margin-top: 1.75rem;
     padding-top: 2.45rem;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) h2 {
+  body .content > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) h2 {
     font-size: 17px;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(1) .calendly-inline-widget {
+  body .content > :nth-child(2) > :nth-child(2) > :nth-child(1) .calendly-inline-widget {
     padding-bottom: 5rem;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) {
+  body .content > :nth-child(2) > :nth-child(3) {
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
@@ -391,28 +399,28 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-chil
     flex-flow: column wrap;
     gap: 1rem;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(1) {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(1) {
     padding-top: 1.5rem;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(1) h2 {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(1) h2 {
     font-size: 17px;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1),
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(1),
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
     flex: 1;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) {
     text-align: justify;
     display: flex;
     flex-flow: column wrap;
     gap: 1rem;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a {
     all: unset;
     cursor: pointer;
     font-weight: 600;
@@ -423,7 +431,7 @@ body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-chil
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
     transition: 0.3s;
   }
-  body > :nth-child(3) > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a:hover {
+  body .content > :nth-child(2) > :nth-child(3) > :nth-child(2) > :nth-child(2) > :nth-child(3) a:hover {
     transform: scale(1.07);
     transition: 0.3s;
   }

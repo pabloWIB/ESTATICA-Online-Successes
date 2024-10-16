@@ -254,8 +254,8 @@ nav {
 }
 
 body {
-  background: linear-gradient(180deg, #fff 20%, #9cbff0 100%);
-  > :nth-child(3) {
+  background: linear-gradient(180deg, #fff 20%, #acc9f1 100%);
+  .content{
     position: relative;
     overflow: hidden;
     padding-bottom: 2.5rem;
@@ -295,7 +295,7 @@ body {
       }
       > :nth-child(2) {
         width: 100%;
-        background-color: rgb(255, 255, 255);
+        // background-color: rgb(255, 255, 255);
         > :nth-child(1) {
           width: 90%;
           max-width: 1440px;
@@ -324,9 +324,18 @@ body {
           display: flex;
           flex-flow: row wrap;
           align-items: center;
+          gap: 1.5rem;
           > :nth-child(1),
           > :nth-child(2) {
             flex: 1;
+          }
+          >:nth-child(1){
+            display: flex;
+            flex-flow: row wrap;
+            max-width: 600px;
+            img{
+              width: 100%;
+            }
           }
           > :nth-child(2) {
             text-align: justify;
@@ -360,7 +369,7 @@ body {
 @media (max-width: 875px) {
   body {
     background: linear-gradient(180deg, #fff 20%, #9cbff0 100%);
-    > :nth-child(3) {
+    .content{
       position: relative;
       overflow: hidden;
       padding-bottom: 1.75rem;
