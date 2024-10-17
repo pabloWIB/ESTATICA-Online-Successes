@@ -67,3 +67,4 @@ window.addEventListener('scroll', scrollValue2);
 var fecha = new Date();
 var fechaAño = fecha.getFullYear();
 const date = document.getElementById('date').textContent = fechaAño;
+const añoActualizar = document.getElementById('añoActualizar').textContent = fechaAño;
